@@ -1,0 +1,14 @@
+Number of traces: 12000
+Number of points: 18000 
+
+
+R0[0] =  204   Correlation =  0.020107257378350854
+R0[1] =  74   Correlation =  0.03802331665636959
+R0[2] =  210   Correlation =  0.019211783625898315
+R0[3] =  201   Correlation =  0.02301902158701511
+
+
+R1[0] =  214   Correlation =  0.01795111117181251
+R1[1] =  77   Correlation =  0.03673988864219572
+R1[2] =  173   Correlation =  0.016946847974170155
+R1[3] =  129   Correlation =  0.022773730622040265

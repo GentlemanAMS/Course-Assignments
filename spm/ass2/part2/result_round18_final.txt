@@ -1,0 +1,14 @@
+Number of traces: 12000
+Number of points: 18000 
+
+
+RK34[0] =  86   Correlation =  0.02013007047256377
+RK34[1] =  74   Correlation =  0.03755618624726031
+RK34[2] =  117   Correlation =  0.01986510179360376
+RK34[3] =  124   Correlation =  0.023648870711137148
+
+
+RK35[0] =  49   Correlation =  0.01764125784884731
+RK35[1] =  183   Correlation =  0.0373867466237373
+RK35[2] =  107   Correlation =  0.016725249134811722
+RK35[3] =  32   Correlation =  0.022915595280868298

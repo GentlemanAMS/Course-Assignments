@@ -1,0 +1,120 @@
+R0[0] First Round Key - Variation of Correlation on number of traces
+
+
+Number of traces: 10
+Peak Correlation =  0.0941095720753298
+Average Correlation =  0.052918534670595804
+Peak/Average =  1.778385827595899
+Top 5 Estimated Keys:
+Estimated Key:  207   Correlation:  0.0941095720753298
+Estimated Key:  103   Correlation:  0.09204166624606316
+Estimated Key:  107   Correlation:  0.08614775284410994
+Estimated Key:  128   Correlation:  0.08593502534051314
+Estimated Key:  106   Correlation:  0.08428741364762411
+
+
+
+Number of traces: 50
+Peak Correlation =  0.036667714919306885
+Average Correlation =  0.019515494544201772
+Peak/Average =  1.8789026758330956
+Top 5 Estimated Keys:
+Estimated Key:  132   Correlation:  0.036667714919306885
+Estimated Key:  218   Correlation:  0.03047951503000925
+Estimated Key:  29   Correlation:  0.02901672678595726
+Estimated Key:  204   Correlation:  0.028890948570081905
+Estimated Key:  175   Correlation:  0.02853457237094347
+
+
+
+Number of traces: 100
+Peak Correlation =  0.024699729729803433
+Average Correlation =  0.013269952531191792
+Peak/Average =  1.8613276627587996
+Top 5 Estimated Keys:
+Estimated Key:  204   Correlation:  0.024699729729803433
+Estimated Key:  175   Correlation:  0.02206162884101478
+Estimated Key:  6   Correlation:  0.02186120862243121
+Estimated Key:  145   Correlation:  0.019674299536013677
+Estimated Key:  105   Correlation:  0.018781090674059645
+
+
+
+Number of traces: 200
+Peak Correlation =  0.020630150891621356
+Average Correlation =  0.00949577770198162
+Peak/Average =  2.172560430444382
+Top 5 Estimated Keys:
+Estimated Key:  204   Correlation:  0.020630150891621356
+Estimated Key:  175   Correlation:  0.01663579614406885
+Estimated Key:  2   Correlation:  0.014437798181777648
+Estimated Key:  75   Correlation:  0.0143612931801645
+Estimated Key:  207   Correlation:  0.013613506828617871
+
+
+
+Number of traces: 500
+Peak Correlation =  0.020705420469160015
+Average Correlation =  0.006305857663528148
+Peak/Average =  3.2835216990253575
+Top 5 Estimated Keys:
+Estimated Key:  204   Correlation:  0.020705420469160015
+Estimated Key:  201   Correlation:  0.01017896520869979
+Estimated Key:  75   Correlation:  0.009559018183295413
+Estimated Key:  175   Correlation:  0.009260703721072978
+Estimated Key:  97   Correlation:  0.009138877601703174
+
+
+
+Number of traces: 1000
+Peak Correlation =  0.02108529410101468
+Average Correlation =  0.004921240140792157
+Peak/Average =  4.284548914050889
+Top 5 Estimated Keys:
+Estimated Key:  204   Correlation:  0.02108529410101468
+Estimated Key:  201   Correlation:  0.008389647054252788
+Estimated Key:  15   Correlation:  0.00770624672956259
+Estimated Key:  113   Correlation:  0.007615956871930094
+Estimated Key:  140   Correlation:  0.0074532774541489185
+
+
+
+Number of traces: 2000
+Peak Correlation =  0.020623441950468144
+Average Correlation =  0.003939080868449169
+Peak/Average =  5.23559750084229
+Top 5 Estimated Keys:
+Estimated Key:  204   Correlation:  0.020623441950468144
+Estimated Key:  201   Correlation:  0.007331825187674395
+Estimated Key:  240   Correlation:  0.006351627355906153
+Estimated Key:  207   Correlation:  0.006336293308888278
+Estimated Key:  140   Correlation:  0.006110796088054401
+
+
+
+Number of traces: 6000
+Peak Correlation =  0.020429099388207826
+Average Correlation =  0.003281771290054323
+Peak/Average =  6.225022276878309
+Top 5 Estimated Keys:
+Estimated Key:  204   Correlation:  0.020429099388207826
+Estimated Key:  201   Correlation:  0.0062506272774812705
+Estimated Key:  207   Correlation:  0.0059885292596545585
+Estimated Key:  140   Correlation:  0.005778997765978698
+Estimated Key:  208   Correlation:  0.005598206592938949
+
+
+
+Number of traces: 12000
+Peak Correlation =  0.02010725737835083
+Average Correlation =  0.0031315223313856774
+Peak/Average =  6.420920961292811
+Top 5 Estimated Keys:
+Estimated Key:  204   Correlation:  0.02010725737835083
+Estimated Key:  207   Correlation:  0.005881534643465361
+Estimated Key:  11   Correlation:  0.005733270583301551
+Estimated Key:  140   Correlation:  0.005709729573405064
+Estimated Key:  201   Correlation:  0.005403413443118406
+
+
+

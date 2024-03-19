@@ -1,0 +1,12 @@
+Number of traces: 12000
+Number of points: 18000 
+
+
+RK2[0] ^ WK0 =  251   Correlation =  0.020168991765706495
+RK2[1] ^ WK0 =  229   Correlation =  0.037872538222037316
+RK2[2] ^ WK0 =  57   Correlation =  0.01894024655195344
+RK2[3] ^ WK0 =  54   Correlation =  0.02346715715564402
+RK3[0] ^ WK1 =  246   Correlation =  0.017784731239705132
+RK3[1] ^ WK1 =  3   Correlation =  0.03683092280212378
+RK3[2] ^ WK1 =  132   Correlation =  0.01682824386803283
+RK3[3] ^ WK1 =  149   Correlation =  0.023415981096627774
