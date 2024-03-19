@@ -1,0 +1,24 @@
+==3610== Cachegrind, a cache and branch-prediction profiler
+==3610== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==3610== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3610== Command: ./mergesort_diffarray/mergesort_500.out
+==3610== 
+--3610-- warning: L3 cache found, using its data for the LL simulation.
+--3610-- warning: specified LL cache: line_size 64  assoc 10  total_size 26,214,400
+--3610-- warning: simulated LL cache: line_size 64  assoc 13  total_size 27,262,976
+==3610== 
+==3610== I   refs:      271,563,712
+==3610== I1  misses:            935
+==3610== LLi misses:            919
+==3610== I1  miss rate:        0.00%
+==3610== LLi miss rate:        0.00%
+==3610== 
+==3610== D   refs:       73,294,821  (44,831,126 rd   + 28,463,695 wr)
+==3610== D1  misses:      2,050,080  ( 1,012,957 rd   +  1,037,123 wr)
+==3610== LLd misses:        126,607  (     3,099 rd   +    123,508 wr)
+==3610== D1  miss rate:         2.8% (       2.3%     +        3.6%  )
+==3610== LLd miss rate:         0.2% (       0.0%     +        0.4%  )
+==3610== 
+==3610== LL refs:         2,051,015  ( 1,013,892 rd   +  1,037,123 wr)
+==3610== LL misses:         127,526  (     4,018 rd   +    123,508 wr)
+==3610== LL miss rate:          0.0% (       0.0%     +        0.4%  )

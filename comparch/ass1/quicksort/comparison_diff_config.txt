@@ -1,0 +1,57 @@
+
+
+
+
+Default Configuration
+I1 cache:         32768 B, 64 B, 8-way associative
+D1 cache:         49152 B, 64 B, 12-way associative
+LL cache:         27262976 B, 64 B, 13-way associative
+
+--------------------------------------------------------------------------------
+Ir          I1mr ILmr Dr         D1mr    DLmr  Dw         D1mw   DLmw   
+--------------------------------------------------------------------------------
+179,565,312  925  910 30,194,153 890,703 2,130 18,420,791 64,175 61,999  PROGRAM TOTALS
+
+
+Configuration 1
+I1 cache:         32768 B, 64 B, 8-way associative
+D1 cache:         49152 B, 64 B, 24-way associative
+LL cache:         27262976 B, 64 B, 13-way associative
+
+--------------------------------------------------------------------------------
+Ir          I1mr ILmr Dr         D1mr    DLmr  Dw         D1mw   DLmw   
+--------------------------------------------------------------------------------
+179,565,312  925  910 30,194,153 893,893 2,130 18,420,791 64,147 61,999  PROGRAM TOTALS
+
+
+Configuration 2
+I1 cache:         32768 B, 64 B, 8-way associative
+D1 cache:         49152 B, 64 B, 6-way associative
+LL cache:         27262976 B, 64 B, 13-way associative
+
+--------------------------------------------------------------------------------
+Ir          I1mr ILmr Dr         D1mr    DLmr  Dw         D1mw   DLmw   
+--------------------------------------------------------------------------------
+179,565,312  925  910 30,194,153 883,328 2,130 18,420,791 64,216 61,999  PROGRAM TOTALS
+
+
+Configuration 3
+I1 cache:         32768 B, 64 B, 8-way associative
+D1 cache:         49152 B, 64 B, 12-way associative
+LL cache:         27262976 B, 64 B, 26-way associative
+
+--------------------------------------------------------------------------------
+Ir          I1mr ILmr Dr         D1mr    DLmr  Dw         D1mw   DLmw   
+--------------------------------------------------------------------------------
+179,565,312  925  910 30,194,153 890,703 2,130 18,420,791 64,175 61,999  PROGRAM TOTALS
+
+
+Configuration 4
+I1 cache:         32768 B, 64 B, 8-way associative
+D1 cache:         49152 B, 64 B, 12-way associative
+LL cache:         27262976 B, 64 B, 52-way associative
+
+--------------------------------------------------------------------------------
+Ir          I1mr ILmr Dr         D1mr    DLmr  Dw         D1mw   DLmw   
+--------------------------------------------------------------------------------
+179,565,312  925  910 30,194,153 890,703 2,130 18,420,791 64,175 61,999  PROGRAM TOTALS

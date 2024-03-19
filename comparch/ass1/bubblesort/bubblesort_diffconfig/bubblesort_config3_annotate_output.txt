@@ -1,0 +1,24 @@
+--------------------------------------------------------------------------------
+I1 cache:         32768 B, 64 B, 8-way associative
+D1 cache:         49152 B, 64 B, 12-way associative
+LL cache:         27262976 B, 64 B, 26-way associative
+Command:          bubblesort_diffconfig/bubblesort.out
+Data file:        bubblesort_diffconfig/bubblesort_config3.out.cachegrind
+Events recorded:  Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Events shown:     Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Event sort order: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Thresholds:       0.1 100 100 100 100 100 100 100 100
+Include dirs:     
+User annotated:   
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir              I1mr ILmr Dr              D1mr          DLmr  Dw              D1mw   DLmw   
+--------------------------------------------------------------------------------
+999,993,855,327  922  909 250,009,033,800 7,807,640,793 1,642 124,962,044,182 31,809 31,215  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir              I1mr ILmr Dr              D1mr          DLmr Dw              D1mw   DLmw    file:function
+--------------------------------------------------------------------------------
+999,960,281,901    1    1 249,999,500,001 7,807,638,961    0 124,958,031,900      0      0  /home/bolt/ams_personal/comparch/ass1/bubblesort/bubblesort.c:bubblesort(int*, int)
+

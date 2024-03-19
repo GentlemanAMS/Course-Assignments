@@ -1,0 +1,24 @@
+--------------------------------------------------------------------------------
+I1 cache:         32768 B, 64 B, 8-way associative
+D1 cache:         49152 B, 64 B, 12-way associative
+LL cache:         27262976 B, 64 B, 13-way associative
+Command:          ./selectionsort_diffarray/selectionsort_250.out
+Data file:        ./selectionsort_diffarray/selectionsort_250.out.cachegrind
+Events recorded:  Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Events shown:     Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Event sort order: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Thresholds:       0.1 100 100 100 100 100 100 100 100
+Include dirs:     
+User annotated:   
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir              I1mr ILmr Dr             D1mr          DLmr  Dw        D1mw    DLmw   
+--------------------------------------------------------------------------------
+187,524,373,224  921  908 31,254,908,550 1,948,006,225 1,398 2,512,281 454,807 15,834  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir              I1mr ILmr Dr             D1mr          DLmr Dw      D1mw    DLmw    file:function
+--------------------------------------------------------------------------------
+187,507,518,526    1    1 31,250,125,002 1,948,004,638    0 499,999 438,628      0  /home/bolt/ams_personal/comparch/ass1/selectionsort/selectionsort_250.c:selectionsort(int*, int)
+

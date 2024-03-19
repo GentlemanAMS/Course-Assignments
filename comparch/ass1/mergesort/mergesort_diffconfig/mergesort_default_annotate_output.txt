@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+I1 cache:         32768 B, 64 B, 8-way associative
+D1 cache:         49152 B, 64 B, 12-way associative
+LL cache:         27262976 B, 64 B, 13-way associative
+Command:          mergesort_diffconfig/mergesort.out
+Data file:        mergesort_diffconfig/mergesort_default.out.cachegrind
+Events recorded:  Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Events shown:     Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Event sort order: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Thresholds:       0.1 100 100 100 100 100 100 100 100
+Include dirs:     
+User annotated:   
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir          I1mr ILmr Dr         D1mr      DLmr  Dw         D1mw      DLmw    
+--------------------------------------------------------------------------------
+271,563,704  935  919 44,831,119 1,013,152 3,103 28,463,695 1,037,067 123,505  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir          I1mr ILmr Dr         D1mr      DLmr Dw         D1mw    DLmw    file:function
+--------------------------------------------------------------------------------
+219,488,366    9    9 32,796,843 1,010,774  972 21,451,419 974,000 61,515  /home/bolt/ams_personal/comparch/ass1/mergesort/mergesort.c:merge(long*, int, int, int)
+ 15,935,484    3    3  4,000,000         0    0  1,500,000       0      0  /build/glibc-sMfBJT/glibc-2.31/stdlib/random_r.c:random_r
+ 13,999,972    2    2  1,999,996        59    0  2,999,994      13     13  /home/bolt/ams_personal/comparch/ass1/mergesort/mergesort.c:mergeSort(long*, int, int) [clone .part.0]
+ 10,500,000    3    3  4,000,000         0    0  1,000,000       1      1  /build/glibc-sMfBJT/glibc-2.31/stdlib/random.c:random
+  3,999,992    0    0    500,000         0    0          0       0      0  /home/bolt/ams_personal/comparch/ass1/mergesort/mergesort.c:mergeSort(long*, int, int)
+  3,003,932    3    3        983       977  975  1,000,006  62,491 61,432  /home/bolt/ams_personal/comparch/ass1/mergesort/mergesort.c:main
+  2,500,000    1    1    500,000         0    0    500,000       0      0  /build/glibc-sMfBJT/glibc-2.31/stdlib/rand.c:rand
+  1,000,199   17   16    500,072         5    0         11       1      1  ???:???
+  1,000,000    0    0    500,000         0    0          0       0      0  /build/glibc-sMfBJT/glibc-2.31/stdlib/../sysdeps/unix/sysv/linux/x86/lowlevellock.h:random
+

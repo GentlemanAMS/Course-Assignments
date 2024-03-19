@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------
+I1 cache:         32768 B, 64 B, 8-way associative
+D1 cache:         49152 B, 64 B, 12-way associative
+LL cache:         27262976 B, 64 B, 13-way associative
+Command:          radixsort_diffconfig/radixsort.out
+Data file:        radixsort_diffconfig/radixsort_default.out.cachegrind
+Events recorded:  Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Events shown:     Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Event sort order: Ir I1mr ILmr Dr D1mr DLmr Dw D1mw DLmw
+Thresholds:       0.1 100 100 100 100 100 100 100 100
+Include dirs:     
+User annotated:   
+Auto-annotation:  off
+
+--------------------------------------------------------------------------------
+Ir          I1mr ILmr Dr         D1mr      DLmr  Dw         D1mw      DLmw    
+--------------------------------------------------------------------------------
+252,115,287  930  914 35,044,283 1,945,319 3,106 19,012,355 1,310,506 123,502  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+Ir          I1mr ILmr Dr         D1mr      DLmr Dw         D1mw      DLmw    file:function
+--------------------------------------------------------------------------------
+215,039,830    5    5 25,010,000 1,880,501  976 15,000,060 1,247,451 61,525  /home/bolt/ams_personal/comparch/ass1/radixsort/radixsort.c:countsort(long*, long)
+ 15,935,484    3    3  4,000,000         0    0  1,500,000         0      0  /build/glibc-sMfBJT/glibc-2.31/stdlib/random_r.c:random_r
+ 10,500,000    3    3  4,000,000         0    0  1,000,000         1      1  /build/glibc-sMfBJT/glibc-2.31/stdlib/random.c:random
+  3,003,930    3    3        983       977  975  1,000,006    62,491 61,432  /home/bolt/ams_personal/comparch/ass1/radixsort/radixsort.c:main
+  3,000,111    2    2    500,004    62,501    0         13         1      0  /home/bolt/ams_personal/comparch/ass1/radixsort/radixsort.c:radixsort(long*)
+  2,500,000    1    1    500,000         0    0    500,000         0      0  /build/glibc-sMfBJT/glibc-2.31/stdlib/rand.c:rand
+  1,000,199   17   16    500,072         5    0         11         1      1  ???:???
+  1,000,000    0    0    500,000         0    0          0         0      0  /build/glibc-sMfBJT/glibc-2.31/stdlib/../sysdeps/unix/sysv/linux/x86/lowlevellock.h:random
+

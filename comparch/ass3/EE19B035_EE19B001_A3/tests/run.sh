@@ -1,0 +1,10 @@
+bin/champsim --warmup_instructions 50000000 --simulation_instructions 50000000 traces/400.perlbench-41B.champsimtrace.xz
+bin/champsim --warmup_instructions 50000000 --simulation_instructions 50000000 traces/403.gcc-16B.champsimtrace.xz
+bin/champsim --warmup_instructions 50000000 --simulation_instructions 50000000 traces/410.bwaves-1963B.champsimtrace.xz
+bin/champsim --warmup_instructions 50000000 --simulation_instructions 50000000 traces/416.gamess-875B.champsimtrace.xz
+bin/champsim --warmup_instructions 50000000 --simulation_instructions 50000000 traces/435.gromacs-111B.champsimtrace.xz
+bin/champsim --warmup_instructions 50000000 --simulation_instructions 50000000 traces/437.leslie3d-134B.champsimtrace.xz
+bin/champsim --warmup_instructions 50000000 --simulation_instructions 50000000 traces/444.namd-120B.champsimtrace.xz
+bin/champsim --warmup_instructions 50000000 --simulation_instructions 50000000 traces/401.bzip2-226B.champsimtrace.xz
+bin/champsim --warmup_instructions 50000000 --simulation_instructions 50000000 traces/429.mcf-184B.champsimtrace.xz
+bin/champsim --warmup_instructions 50000000 --simulation_instructions 50000000 traces3/433.milc-127B.champsimtrace.xz

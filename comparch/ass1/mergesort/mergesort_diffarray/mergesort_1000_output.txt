@@ -1,0 +1,36 @@
+==3628== Cachegrind, a cache and branch-prediction profiler
+==3628== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==3628== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3628== Command: ./mergesort_diffarray/mergesort_1000.out
+==3628== 
+--3628-- warning: L3 cache found, using its data for the LL simulation.
+--3628-- warning: specified LL cache: line_size 64  assoc 10  total_size 26,214,400
+--3628-- warning: simulated LL cache: line_size 64  assoc 13  total_size 27,262,976
+==3628== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==3628== 
+==3628== Process terminating with default action of signal 11 (SIGSEGV)
+==3628==  Access not within mapped region at address 0x1FFE802BF8
+==3628== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==3628==    at 0x1092F7: merge(long*, int, int, int) (mergesort_1000.c:18)
+==3628==  If you believe this happened as a result of a stack
+==3628==  overflow in your program's main thread (unlikely but
+==3628==  possible), you can try to increase the size of the
+==3628==  main thread stack using the --main-stacksize= flag.
+==3628==  The main thread stack size used in this run was 8388608.
+==3628== 
+==3628== I   refs:      92,951,559
+==3628== I1  misses:           868
+==3628== LLi misses:           857
+==3628== I1  miss rate:       0.00%
+==3628== LLi miss rate:       0.00%
+==3628== 
+==3628== D   refs:      33,265,315  (22,696,738 rd   + 10,568,577 wr)
+==3628== D1  misses:       251,704  (    66,782 rd   +    184,922 wr)
+==3628== LLd misses:       130,539  (     3,185 rd   +    127,354 wr)
+==3628== D1  miss rate:        0.8% (       0.3%     +        1.7%  )
+==3628== LLd miss rate:        0.4% (       0.0%     +        1.2%  )
+==3628== 
+==3628== LL refs:          252,572  (    67,650 rd   +    184,922 wr)
+==3628== LL misses:        131,396  (     4,042 rd   +    127,354 wr)
+==3628== LL miss rate:         0.1% (       0.0%     +        1.2%  )
+Segmentation fault (core dumped)
